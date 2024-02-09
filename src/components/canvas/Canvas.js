@@ -12,11 +12,12 @@ const PortfolioItem = ({ caption }) => {
   const captions = ['randomg image numero uno', 'numero dos', 'numerotres', 'caption4', 'caption5', 'caption6'];
 
   return (
-    <div className='image-header'>
-    <h1>images</h1>
-    
+      <div className="portfolio-container">
+        <div className='image-header'>
+          <h1>images</h1>
+
     <div className='portfolio-image'>
-    
+
       {images.map((image, index) => (
         <div className='image-boxes' key={index}>
           <img src={image} alt={`Portfolio Image ${index + 1}`} className='photo-box' />
@@ -25,6 +26,7 @@ const PortfolioItem = ({ caption }) => {
       ))}
     </div>
     </div>
+      </div>
   );
 };
 

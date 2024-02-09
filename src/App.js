@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import PortfolioItem from './components/canvas/Canvas';
